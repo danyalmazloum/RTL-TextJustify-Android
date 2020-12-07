@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.drdizzy.utils.TextJustifyUtils;
 
 
-public class TextViewEx extends TextView
+public class TextViewEx extends androidx.appcompat.widget.AppCompatTextView
 {
     private Paint paint = new Paint();
 
